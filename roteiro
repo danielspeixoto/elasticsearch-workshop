@@ -1,0 +1,5 @@
+Criar um index no formato (nome-sobrenome)
+Configurar index
+Testar analyzers
+Carregar datasets (adicionar dataset menor pra eles)
+Modificar função de score

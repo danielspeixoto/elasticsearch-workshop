@@ -1,0 +1,5 @@
+Analyzers:
+https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-analyzers.html
+
+Tokenizers:
+https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-tokenizers.html

@@ -1,0 +1,4 @@
+{
+    "field": "body",
+    "text": "<p>Given the nature of this community (laws strongly influence freelance work, and laws are very different from place to place), I think that country tags might be important as well as state tags for those countries with several different states like USA and Canada.</p><p>But for the USA, the ideal state tag would be a <em>capitalized</em> two-letter abbreviation (RI for Rhode Island, MA for Massachusetts), and I don't know how to force the tags to be all-caps (they seem to automatically default to lowercase, and ri is perhaps not an obvious tag whereas RI might be an obvious tag for most US residents.</p><p>How does one force a tag to be all-caps?</p>"
+}

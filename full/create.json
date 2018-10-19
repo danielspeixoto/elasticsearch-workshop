@@ -1,0 +1,63 @@
+{
+    "settings": {
+      "index": {
+        "number_of_shards": 1,
+        "number_of_replicas": 0,
+        "analysis": {
+          "analyzer": {
+            "question_analysis": {
+              "filter": [
+                "standard",
+                "lowercase",
+                "porter_stem",
+                "stop"
+              ],
+              "char_filter": [
+                "html_strip"
+              ],
+              "tokenizer": "classic"
+            }
+          }
+        }
+      }
+    },
+    "mappings": {
+      "questions": {
+        "dynamic": "false",
+        "properties": {
+          "accepted_answer_id": {
+            "type": "keyword"
+          },
+          "body": {
+            "type": "text",
+            "analyzer": "question_analysis"
+          },
+          "creation_date": {
+            "type": "date"
+          },
+          "last_activity_date": {
+            "type": "date"
+          },
+          "score": {
+            "type": "integer"
+          },
+          "id": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "text",
+            "analyzer": "question_analysis"
+          },
+          "answer_count": {
+            "type": "integer"
+          },
+          "view_count": {
+            "type": "integer"
+          },
+          "comment_count": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }

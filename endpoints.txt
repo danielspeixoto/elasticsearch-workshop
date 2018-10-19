@@ -1,0 +1,7 @@
+DELETE index - Deletar index
+
+GET index/_analyze - Analisar um documento usando seus analyzer
+
+GET index/_search - Pesquisar
+
+PUT /index - Criar index
