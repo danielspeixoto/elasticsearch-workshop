@@ -3,3 +3,6 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-analyze
 
 Tokenizers:
 https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-tokenizers.html
+
+StackExchange archives:
+https://archive.org/download/stackexchange
