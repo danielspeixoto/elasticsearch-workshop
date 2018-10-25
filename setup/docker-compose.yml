@@ -2,16 +2,16 @@ version: '3.3'
 services:
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:6.4.0
-    container_name: elasticsearch
+    container_name: elasticsearch-ri
     networks: ['elk']
     ports:
     - 9200:9200
     volumes:
-      - 'es_data:/usr/share/elasticsearch/data'
+      - 'ri_data:/usr/share/elasticsearch/data'
 
   kibana:
     image: docker.elastic.co/kibana/kibana:6.4.0
-    container_name: kibana
+    container_name: kibana-ri
     environment:
       - "ELASTICSEARCH_URL=http://elasticsearch:9200"
     networks: ['elk']
@@ -24,4 +24,4 @@ networks:
   elk:
 
 volumes:
-  es_data:
+  ri_data:
